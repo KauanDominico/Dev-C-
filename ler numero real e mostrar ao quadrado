@@ -1,0 +1,17 @@
+# include <stdio.h> 
+# include <stdlib.h>
+
+int main(){
+	float x;
+	
+	printf ("Entre com um numero: ");
+	scanf ("%f", &x);
+	x = x*x;
+	
+	printf("Valor de X ao quadrado: %.0f\n", x);
+	
+	system ("pause");
+	return (0);
+	
+	
+}
